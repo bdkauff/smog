@@ -4,7 +4,8 @@
    Author's custom styles
    ========================================================================== */
 body {
-  margin:30px;
+  margin:50px;
+  margin-bottom: 100px;
 	color: black;
 	background-color: white;
 	text-align: center;
@@ -34,7 +35,7 @@ body {
 }
 
 .header img {
-  
+
   text-align: center;
   max-width: 440px;
 }
