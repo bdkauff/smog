@@ -30,12 +30,9 @@ body {
   text-align: left;
 }
 
-.header p {
-  font-size: 9px;
-}
-
-.header img {
-
+#caption{
+  font-size: 10px;
   text-align: center;
-  max-width: 440px;
 }
+
+

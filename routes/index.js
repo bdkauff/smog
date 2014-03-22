@@ -15,6 +15,10 @@ exports.smogIssue = function(req,res) {
 	res.render('smogIssue', {title: 'SMOGIssue'});
 }
 
-exports.adam = function(req,res) {
-	res.render('articles', {title: 'adam'});
+exports.adam_mann = function(req,res) {
+	res.render('adam_mann', {title: 'adam_mann'});
+}
+
+exports.seth_maxon = function(req,res) {
+	res.render('seth_maxon', {title: 'seth_maxon'});
 }

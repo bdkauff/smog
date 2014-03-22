@@ -30,7 +30,8 @@ if ('development' == app.get('env')) {
 app.get('/', routes.index);
 app.get('/smog', routes.smog);
 app.get('/smogIssue', routes.smogIssue);
-app.get('/adam', routes.adam);
+app.get('/adam_mann', routes.adam_mann);
+app.get('/seth_maxon', routes.seth_maxon);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
