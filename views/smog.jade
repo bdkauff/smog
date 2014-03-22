@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  
+  a(href="#", target="_blank") test
+
+  script(type="text/javascript").
+    $(document).ready(function() {
+
+      window.open('/smogIssue', '_blank');
+
+    });

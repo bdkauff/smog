@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  a(href="#", target="_blank") Click here to read current issue
+
+  script(type="text/javascript").
+    $(document).ready(function() {
+      $('a').on('click', function(e) {
+        e.preventDefault();
+        var smogwindow = window.open('/smog', '_blank', 'toolbar=1,scrollbars=1,location=1,status=1,menubar=1,resizable=0,width=' + (window.innerWidth + 1) + ',height=' + (window.innerHeight + 1));
+
+        smogwindow.focus();
+
+      });
+    });

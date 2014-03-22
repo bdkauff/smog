@@ -1,0 +1,40 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+  margin:30px;
+	color: black;
+	background-color: white;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+  font-size: 12;
+
+}
+
+.copy {
+  position: absolute;
+  z-index: 0;
+
+}
+.cloud {
+  position: absolute;
+  z-index: 1;
+}
+
+.article p {
+  font-family: georgia;
+  font-size: 12;
+  text-align: left;
+}
+
+.header p {
+  font-size: 9px;
+}
+
+.header img {
+  
+  text-align: center;
+  max-width: 440px;
+}
