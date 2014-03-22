@@ -32,6 +32,8 @@ app.get('/smog', routes.smog);
 app.get('/smogIssue', routes.smogIssue);
 app.get('/adam', routes.adam);
 app.get('/kelsa_trom', routes.kelsa_trom);
+app.get('/sophia_lefraga', routes.sophia_lefraga);
+app.get('/andy_scott', routes.andy_scott);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

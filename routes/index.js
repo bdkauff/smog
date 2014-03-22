@@ -22,3 +22,11 @@ exports.adam = function(req,res) {
 exports.kelsa_trom = function(req,res) {
 	res.render('kelsa_trom', {title: 'kelsa_trom'});
 }
+
+exports.sophia_lefraga = function(req,res) {
+	res.render('sophia_lefraga', {title: 'sophia_lefraga'});
+}
+
+exports.andy_scott = function(req,res) {
+	res.render('andy_scott', {title: 'andy_scott'});
+}

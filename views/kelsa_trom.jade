@@ -7,17 +7,20 @@ block content
 		.article
 				h3 Stay Indoors
 				h4 Kelsa Trom	
+				h6 •
 		- for (var x = 1; x < 17; x++)
 			.span6
 				audio(id='indoors_audio')
 					source(src='/img/Kelsa_Trom/'+x+'.wav', type="audio/wav")
 			img(src='/img/Kelsa_Trom/'+x+'.gif')
-	script.
-			$(document).ready(function(){
-				$("div").hover(function(){
-					indoors_audio.play();
-					},
-				function(){
-					indoors_audio.load();
-				});
-			});
+
+	//- script.
+	//- 		$(document).ready(function(){
+	//- 			$("div").hover(function(){
+	//- 				indoors_audio.play();
+	//- 				},
+	//- 			function(){
+	//- 				indoors_audio.load();
+	//- 			});
+	//- 		});
+
