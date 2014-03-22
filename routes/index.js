@@ -16,5 +16,9 @@ exports.smogIssue = function(req,res) {
 }
 
 exports.adam = function(req,res) {
-	res.render('articles', {title: 'adam'});
+	res.render('adam', {title: 'adam'});
+}
+
+exports.kelsa_trom = function(req,res) {
+	res.render('kelsa_trom', {title: 'kelsa_trom'});
 }
