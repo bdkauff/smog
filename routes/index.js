@@ -21,4 +21,8 @@ exports.adam_mann = function(req,res) {
 
 exports.seth_maxon = function(req,res) {
 	res.render('seth_maxon', {title: 'seth_maxon'});
+
+exports.kelsa_trom = function(req,res) {
+	res.render('kelsa_trom', {title: 'kelsa_trom'});
+
 }
