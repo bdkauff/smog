@@ -39,3 +39,14 @@ body {
   text-align: center;
   max-width: 440px;
 }
+
+.kelsa{
+ /* background-color: #E8E8E8;*/
+ border: solid;
+ border-width: 1px;
+  margin-top: 10px;
+  cursor: vertical-text;
+  float: none;  
+  margin-left: auto;  
+  margin-right: auto;
+}
