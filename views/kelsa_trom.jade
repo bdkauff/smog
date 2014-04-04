@@ -3,21 +3,29 @@ extends layout
 block content
 
 	.row
-		.span4
+		.span6
 		.article
-				h3 Stay Indoors
-				h4 Kelsa Trom	
+		h3 Stay Indoors
+		h4 Kelsa Trom	
+		h6 •
 		- for (var x = 1; x < 17; x++)
-			.span6
-				audio(id='indoors_audio')
-					source(src='/img/Kelsa_Trom/'+x+'.wav', type="audio/wav")
-			img(src='/img/Kelsa_Trom/'+x+'.gif')
+			.span7.kelsa
+					audio(id='indoors_audio')
+						source(src='/img/Kelsa_Trom/'+x+'.wav', type="audio/wav")
+					img(src='/img/Kelsa_Trom/'+x+'.gif')
+
 	script.
 			$(document).ready(function(){
-				$("div").hover(function(){
-					indoors_audio.play();
-					},
-				function(){
-					indoors_audio.load();
+				$(".span6").each(function(index, el){ 
+					var audioEl = $(el).find("audio");
+					if (audioEl.length > 0){
+						$(el).hover(function(){
+							audioEl[0].play();
+						},
+						function(){
+							audioEl[0].pause();
+						});
+					}
 				});
 			});
+

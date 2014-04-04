@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+	.row
+		.span4
+		.article
+				h3 Asophodel
+				h4 Sophia Le Fraga
+				h6 •
+		- for (var x = 2; x < 18; x++)
+			img(src='/img/sophia_lefraga/sophia_'+x+'.jpg')
+	script.
+			$(document).ready(function(){
+				$("div").hover(function(){
+					indoors_audio.play();
+					},
+				function(){
+					indoors_audio.load();
+				});
+			});

@@ -96,9 +96,6 @@ body {
   font-size: 80px;
 }
 
-/*.cloud1,.cloud2 img {
-  -webkit-filter: sepia(100%); 
-}*/
 /*homepage smog cloud images*/
 #image_1 {
   max-width: 300px;
@@ -199,5 +196,14 @@ body {
   z-index: 1;  
 }
 
-
+.kelsa{
+ /* background-color: #E8E8E8;*/
+ border: solid;
+ border-width: 1px;
+  margin-top: 10px;
+  cursor: vertical-text;
+  float: none;  
+  margin-left: auto;  
+  margin-right: auto;
+}
 
