@@ -1,25 +1,79 @@
 extends layout
 
 block content
-	br
-	br
-	br
-	br
-	br
-	br
+	script.
+		$(document).ready(function($){
+			$('.cloud1 img,.cloud2 img').on('click', function() {
+				console.log("clicked!")
+				$(this).css('-webkit-filter', 'brightness(0%)')
+			});
+
+			$('a').on('click', function(e) {
+				e.preventDefault();
+				window.open($(this).attr('href'), '_blank');
+			});
+		});
 
 	.row
-		.span5
+		.span4
 					
-		.span5
-			.cloud
-				a(href='http://google.com'): img(src='/img/comic_drop_001.png')
-				br
-				br
-				br
+		.span7
+			br
+			br
+			br
+			br				
+			br
+			br
+			br
+			br
+			br
+			br				
+			.cloud1(class='floating')
+
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_1",src='/img/smogs_layers/cloud_'+ 1 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_2",src='/img/smogs_layers/cloud_'+ 2 +'.png')						
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_3",src='/img/smogs_layers/cloud_'+ 3 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_4",src='/img/smogs_layers/cloud_'+ 4 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_5",src='/img/smogs_layers/cloud_'+ 5 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_6",src='/img/smogs_layers/cloud_'+ 6 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_7",src='/img/smogs_layers/cloud_'+ 7 +'.png')
+
+			.cloud2(class='scaling')
+
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_8",src='/img/smogs_layers/cloud_'+ 8 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_9",src='/img/smogs_layers/cloud_'+ 9 +'.png')						
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_10",src='/img/smogs_layers/cloud_'+ 10 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_11",src='/img/smogs_layers/cloud_'+ 11 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_12",src='/img/smogs_layers/cloud_'+ 12 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_13",src='/img/smogs_layers/cloud_'+ 13 +'.png')
+				a(href='/seth_maxon', target="_blank")
+					img(id="image_14",src='/img/smogs_layers/cloud_'+ 14 +'.png')						
 			.copy
-				h1 SMOG
-				p SMOG is an issue. It's the first issue.
+
+				br
+				br
+				br
+				h1 S M O G
+				br
+				br
+				br
+				br
+				p 
+					em SMOG is an issue. It's the first issue. 
+				p (Click each cloud to read)
 		.span2
 				
 	.row
@@ -28,4 +82,5 @@ block content
 		.span5
 
 		.span2
+
 
