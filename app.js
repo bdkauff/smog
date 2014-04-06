@@ -34,7 +34,7 @@ app.get('/adam_mann', routes.adam_mann);
 app.get('/seth_maxon', routes.seth_maxon);
 app.get('/kelsa_trom', routes.kelsa_trom);
 app.get('/sophia_lefraga', routes.sophia_lefraga);
-app.get('/andy_scott', routes.andy_scott);
+app.get('/andrea_b_scott', routes.andrea_b_scott);
 app.get('/travis_korte', routes.travis_korte);
 app.get('/anita_pan', routes.anita_pan);
 app.get('/marina_zurkow', routes.marina_zurkow);

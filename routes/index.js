@@ -31,8 +31,8 @@ exports.sophia_lefraga = function(req,res) {
 	res.render('sophia_lefraga', {title: 'SMOG|Sophia Le Fraga'});
 }
 
-exports.andy_scott = function(req,res) {
-	res.render('andy_scott', {title: 'SMOG|Andrea Scott'});
+exports.andrea_b_scott = function(req,res) {
+	res.render('andy_scott', {title: 'SMOG|Andrea B. Scott'});
 }
 
 exports.travis_korte = function(req,res) {
