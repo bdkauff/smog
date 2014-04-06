@@ -32,7 +32,7 @@ exports.sophia_lefraga = function(req,res) {
 }
 
 exports.andrea_b_scott = function(req,res) {
-	res.render('andy_scott', {title: 'SMOG|Andrea B. Scott'});
+	res.render('andrea_b_scott', {title: 'SMOG|Andrea B. Scott'});
 }
 
 exports.travis_korte = function(req,res) {
