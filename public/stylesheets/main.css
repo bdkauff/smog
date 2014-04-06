@@ -207,3 +207,41 @@ body {
   margin-right: auto;
 }
 
+#Jay{
+  height: 100%;
+  position: absolute;
+  width: 8600px;
+  top: 0px;
+  left: 0px;
+}
+
+#Jay #Title{
+  display: inline;
+  position: relative;
+  float: left;
+  width: auto;
+  margin: 50px;
+}
+
+#Jay #Movie{
+  margin: 50px;
+  display: inline;
+  position: relative;
+  float: left;
+  width: auto;
+}
+
+#Jay #Comic{
+  display: inline;
+  position: relative;
+  float: left;
+  width: auto;
+  height: 100%;
+}
+
+#Jay #Comic img{
+ height: 100%;
+ width: auto;
+}
+
+
