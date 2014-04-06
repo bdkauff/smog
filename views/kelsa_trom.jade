@@ -4,26 +4,20 @@ block content
 
 	.row
 		.span4
-		.article
-		h3 Stay Indoors
-		h4 Kelsa Trom	
-		h6 •
-		<br> "Stay Indoors," the safety alert we hear on smoggy days, always struck me as a strange order. 
-		<br> On the one hand, it never feels plausible that the air outside could be very different from the 
-		<br> air inside - or that air could be controlled at all. Even stronger is the physical perplexity 
-		<br> of breathing, of not being able to do anything but breathe, within and despite dangerous conditions. 
-		<br> This series identifies indoor enclosures that, by their appearance and function, promise the clean 
-		<br> state of controlled air, imagined or not. Within these spaces, the mechanisms of tidiness and 
-		<br> control break down through materials in the air; in this case, sounds. 
-		<br>
-		<br>(hover for sounds)
-		<br>
-		<br>
-		- for (var x = 1; x < 17; x++)
-			.span6.kelsa
-					audio(id='indoors_audio')
-						source(src='/img/Kelsa_Trom/'+x+'.mp3', type="audio/mp3")
-					img(src='/img/Kelsa_Trom/'+x+'.gif')
+		.span7
+			.article
+				h3 Stay Indoors
+				h4 Kelsa Trom	
+				h6 •
+				p(style='max-width:540px;') "Stay Indoors," the safety alert we hear on smoggy days, always struck me as a strange order. On the one hand, it never feels plausible that the air outside could be very different from the air inside - or that air could be controlled at all. Even stronger is the physical perplexity of breathing, of not being able to do anything but breathe, within and despite dangerous conditions. This series identifies indoor enclosures that, by their appearance and function, promise the clean state of controlled air, imagined or not. Within these spaces, the mechanisms of tidiness and control break down through materials in the air; in this case, sounds. 
+				br
+				p (hover for sounds)
+				br
+			- for (var x = 1; x < 17; x++)
+				.span6.kelsa
+						audio(id='indoors_audio')
+							source(src='/img/Kelsa_Trom/'+x+'.mp3', type="audio/mp3")
+						img(src='/img/Kelsa_Trom/'+x+'.gif')
 
 	script.
 		$(document).ready(function(){
