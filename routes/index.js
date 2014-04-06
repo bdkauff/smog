@@ -40,18 +40,18 @@ exports.travis_korte = function(req,res) {
 	res.render('travis_korte', {title: 'SMOG|Travis Korte'});
 }
 exports.anita_pan = function(req,res) {
-	res.render('anita_pan', {title: 'Anita Pan|SMOG'});
+	res.render('anita_pan', {title: 'SMOG|Anita Pan'});
 }
 
 exports.marina_zurkow = function(req,res) {
-	res.render('marina_zurkow', {title: 'Marina Zurkow|SMOG'});
+	res.render('marina_zurkow', {title: 'SMOG|Marina Zurkow'});
 }
 
 exports.recipies = function(req,res) {
-	res.render('recipies', {title: 'Recipies|SMOG'});
+	res.render('recipies', {title: 'SMOG|Recipies'});
 }
 
 exports.jay_z = function(req,res) {
-	res.render('jay_z', {title: 'Jay Zehngebot|SMOG'});
+	res.render('jay_z', {title: 'SMOG|Jay Zehngebot'});
 }
 
