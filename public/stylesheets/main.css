@@ -210,7 +210,7 @@ body {
 #Jay{
   height: 100%;
   position: absolute;
-  width: 8600px;
+  min-width: 11000px;
   top: 0px;
   left: 0px;
 }
@@ -241,6 +241,7 @@ body {
 
 #Jay #Comic img{
  height: 100%;
+ max-height: 900px;
  width: auto;
 }
 

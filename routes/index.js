@@ -16,42 +16,42 @@ exports.smogIssue = function(req,res) {
 }
 
 exports.adam_mann = function(req,res) {
-	res.render('adam_mann', {title: 'SMOG'});
+	res.render('adam_mann', {title: 'Adam Mann|SMOG'});
 }
 
 exports.seth_maxon = function(req,res) {
-	res.render('seth_maxon', {title: 'SMOG'});
+	res.render('seth_maxon', {title: 'Seth Maxon|SMOG'});
 }
 
 exports.kelsa_trom = function(req,res) {
-	res.render('kelsa_trom', {title: 'SMOG'});
+	res.render('kelsa_trom', {title: 'Kelsa Trom|SMOG'});
 
 }
 
 exports.sophia_lefraga = function(req,res) {
-	res.render('sophia_lefraga', {title: 'SMOG'});
+	res.render('sophia_lefraga', {title: 'Sophia Le Fraga|SMOG'});
 }
 
 exports.andy_scott = function(req,res) {
-	res.render('andy_scott', {title: 'SMOG'});
+	res.render('andy_scott', {title: 'Andrea Scott|SMOG'});
 }
 
 exports.travis_korte = function(req,res) {
-	res.render('travis_korte', {title: 'SMOG'});
+	res.render('travis_korte', {title: 'Travis Korte|SMOG'});
 }
 exports.anita_pan = function(req,res) {
-	res.render('anita_pan', {title: 'SMOG'});
+	res.render('anita_pan', {title: 'Anita Pan|SMOG'});
 }
 
 exports.marina_zurkow = function(req,res) {
-	res.render('marina_zurkow', {title: 'SMOG'});
+	res.render('marina_zurkow', {title: 'Marina Zurkow|SMOG'});
 }
 
 exports.recipies = function(req,res) {
-	res.render('recipies', {title: 'SMOG'});
+	res.render('recipies', {title: 'Recipies|SMOG'});
 }
 
 exports.jay_z = function(req,res) {
-	res.render('jay_z', {title: 'SMOG'});
+	res.render('jay_z', {title: 'Jay Zehngebot|SMOG'});
 }
 
