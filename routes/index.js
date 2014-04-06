@@ -50,3 +50,8 @@ exports.marina_zurkow = function(req,res) {
 exports.recipies = function(req,res) {
 	res.render('recipies', {title: 'recipies'});
 }
+
+exports.jay_z = function(req,res) {
+	res.render('jay_z', {title: 'jay_z'});
+}
+
