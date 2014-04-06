@@ -39,6 +39,7 @@ app.get('/travis_korte', routes.travis_korte);
 app.get('/anita_pan', routes.anita_pan);
 app.get('/marina_zurkow', routes.marina_zurkow);
 app.get('/recipies', routes.recipies);
+app.get('/jay_z', routes.jay_z);
 
 
 http.createServer(app).listen(app.get('port'), function(){
