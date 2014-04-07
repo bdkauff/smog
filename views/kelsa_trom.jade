@@ -13,15 +13,17 @@ block content
 				br
 				p(style='text-align:center;') (hover for sounds)
 				br
-			- for (var x = 1; x < 17; x++)
-				.span6.kelsa
-						audio(id='indoors_audio')
-							source(src='/img/Kelsa_Trom/'+x+'.mp3', type="audio/mp3")
-						img(src='/img/Kelsa_Trom/'+x+'.gif')
+	.span1
+	.span12
+		- for (var x = 1; x < 17; x++)
+			.span11.kelsa
+					audio(id='indoors_audio')
+						source(src='/img/Kelsa_Trom/'+x+'.mp3', type="audio/mp3")
+					img(src='/img/Kelsa_Trom/'+x+'.gif')
 
 	script.
 		$(document).ready(function(){
-			$(".span6").each(function(index, el){ 
+			$(".span11").each(function(index, el){ 
 				var audioEl = $(el).find("audio");
 				if (audioEl.length > 0){
 					$(el).hover(function(){
