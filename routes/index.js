@@ -2,7 +2,7 @@
 /*
  * GET home page.
  */
-
+ 
 exports.index = function(req, res){
   res.render('index', { title: 'SMOG' });
 };
@@ -53,4 +53,3 @@ exports.recipies = function(req,res) {
 exports.jay_z = function(req,res) {
 	res.render('jay_z', {title: 'SMOG|Jay Zehngebot'});
 }
-
