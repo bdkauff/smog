@@ -2,7 +2,7 @@
 /*
  * GET home page.
  */
- 
+
 exports.index = function(req, res){
   res.render('index', { title: 'SMOG' });
 };
@@ -46,8 +46,8 @@ exports.marina_zurkow = function(req,res) {
 	res.render('marina_zurkow', {title: 'SMOG|Marina Zurkow'});
 }
 
-exports.recipies = function(req,res) {
-	res.render('recipies', {title: 'SMOG|Recipies'});
+exports.polluted_provisions = function(req,res) {
+	res.render('polluted_provisions', {title: 'SMOG|Polluted Provisions'});
 }
 
 exports.jay_z = function(req,res) {
