@@ -27,9 +27,8 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/', routes.smogIssue);
 app.get('/smog', routes.smog);
-app.get('/smogIssue', routes.smogIssue);
 app.get('/adam_mann', routes.adam_mann);
 app.get('/seth_maxon', routes.seth_maxon);
 app.get('/kelsa_trom', routes.kelsa_trom);
