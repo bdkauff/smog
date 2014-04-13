@@ -53,3 +53,11 @@ exports.polluted_provisions = function(req,res) {
 exports.jay_z = function(req,res) {
 	res.render('jay_z', {title: 'SMOG|Jay Zehngebot'});
 }
+
+exports.about = function(req,res) {
+	res.render('about', {title: 'SMOG|About'});
+}
+
+exports.contact = function(req,res) {
+	res.render('contact', {title: 'SMOG|Contact'});
+}

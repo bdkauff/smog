@@ -40,6 +40,8 @@ app.get('/anita_pan', routes.anita_pan);
 app.get('/marina_zurkow', routes.marina_zurkow);
 app.get('/polluted_provisions', routes.polluted_provisions);
 app.get('/jay_z', routes.jay_z);
+app.get('/about', routes.about);
+app.get('/contact', routes.contact);
 
 
 http.createServer(app).listen(app.get('port'), function(){
